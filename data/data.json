@@ -119,7 +119,7 @@
           {
             "name": "Knowledge Base",
             "header": "Google Chrome side panel extension powered by Gemini Nano AI, 2024, B2C, education",
-            "link": "http://getknowledgebaseapp.com",
+            "link": "https://alexeyhimself.github.io/getkbapp",
             "description": "“Knowledge Base” app streamlines education and solves FOMO problem for the people who study a lot and have lots of opened tabs in their browsers with tons of materials to read, watch and listen. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> held in 2024.",
             "videos": [
               {
@@ -283,6 +283,16 @@
           "title": "“SQA Mate test cases management system“",
           "conference": " &mdash; my speech at the conference, 2019, Comaqa Spring, Minsk, Belarus",
           "link": "https://www.youtube.com/embed/hfM7TQGMW2g?si=yAlWQjYZnoz8uBNu"
+        }
+      ]
+    },
+    {
+      "Competitions": [
+        {
+          "title": "“Google Gemini AI Competition”",
+          "header": "2024",
+          "link": "https://ai.google.dev/competition",
+          "description": "Built a team and competed in a Google Gemini AI Competition with a “<a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">Knowledge&nbsp;Base</a>” app with <a href=\"https://alexeyhimself.github.io/getkbapp/competitors.html\" target=\"_blank\">over 3K projects across 117 countries</a>. Landing page for the project: <a href=\"https://alexeyhimself.github.io/getkbapp\" target=\"_blank\">here</a>."
         }
       ]
     },
