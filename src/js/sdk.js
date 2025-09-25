@@ -48,34 +48,29 @@ function compose_project_li(data) {
   //content += `<a href="${data.link}" target="_blank">${pretty_link}</a>`;
   content += '</b></p>';
 
-  if (data.description) {
-    const description = data.description.split('\n');
-    if (description.length > 1) {
-      content += '<ul>';
-      description.forEach((paragraph) => {
-        content += `<li class="li_paragraph">${paragraph}</li>`;
-      });
-      content += '</ul>';
-    }
-    else {
-      content += `<p class="li_paragraph">${description[0]}</p>`;
-    }
+  const description = data.description.split('\n');
+  if (description.length > 1) {
+    content += '<ul>';
+    description.forEach((paragraph) => {
+      content += `<li class="li_paragraph">${paragraph}</li>`;
+    });
+    content += '</ul>';
+  }
+  else {
+    content += `<p class="li_paragraph">${description[0]}</p>`;
   }
 
   content += '<div style="display: flex; flex-wrap: wrap;">';
 
   if (data.videos) {
     data.videos.forEach((video) => {
-      content += `<iframe class="img-thumbnail" width="42%" height="auto" src="${video.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      content += `<iframe class="img-thumbnail" width="50%" height="auto" src="${video.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     });
   }
 
   if (data.images) {
     for (let i = 0; i < data.images.length; i++) {
       const img = data.images[i];
-      if (!img.link)
-        continue;
-
       content += '<a href="#" data-bs-toggle="modal" data-bs-target="#image_preview_modal">';
       content += `<img src="${img.link}" class="img-thumbnail" alt="${img.description}">`;
       content += '</a>';
@@ -90,7 +85,7 @@ function compose_project_li(data) {
 
 function compose_conference_li(data) {
   content = '<li class="li">';
-  content += `<p class="li_header"><b>${data.title} ${data.conference}</b></p>`;
+  content += `<p class="li_header"><b>${data.title}, ${data.conference}</b></p>`;
   content += `<iframe class="img-thumbnail" width="50%" height="auto" src="${data.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   content += '</li>';
   return content;
@@ -99,6 +94,14 @@ function compose_conference_li(data) {
 function compose_interview_li(data) {
   content = '<li class="li">';
   content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a></p>`;
+  content += '</li>';
+  return content;
+}
+
+function compose_competition_li(data) {
+  content = '<li class="li">';
+  content += `<p class="li_header"><b><a href="${data.link}" target="_blank">${data.title}</a> &mdash; ${data.header}</b></p>`;
+  content += `<p class="li_paragraph">${data.description}</p>`;
   content += '</li>';
   return content;
 }
@@ -122,6 +125,19 @@ function update_conferences(data, section_type) {
   content += '<ul>';
   for (let j = 0; j < data.length; j++)
     content += compose_conference_li(data[j]);
+  
+  content += '</ul>';
+  content += '</div>';
+  content += compose_section_end();
+  return content;
+}
+
+function update_competitions(data, section_type) {
+  let content = compose_section_beginning(section_type);
+  content += '<div class="col-lg">';
+  content += '<ul>';
+  for (let j = 0; j < data.length; j++)
+    content += compose_competition_li(data[j]);
   
   content += '</ul>';
   content += '</div>';
@@ -165,10 +181,12 @@ function update_sections(data) {
       function_to_call = update_contacts;
     else if (section_type_lower_case == 'about')
       function_to_call = update_about;
-    else if (section_type_lower_case == 'products')
+    else if (section_type_lower_case == 'projects')
       function_to_call = update_projects;
     else if (section_type_lower_case == 'conferences')
       function_to_call = update_conferences;
+    else if (section_type_lower_case == 'competitions')
+      function_to_call = update_competitions;
     else if (section_type_lower_case == 'interviews')
       function_to_call = update_interviews;
     else if (section_type_lower_case == 'books')
@@ -211,8 +229,8 @@ function run_post_fetch_routines(data) {
 }
 
 window.onload = function() {
-  fetch('https://togetherisbetter.github.io/portfolio/data/data.json')
-  //fetch('data/data.json')
+  //fetch('http://localhost/data/data.sample.json')
+  fetch('data/data.json')
     .then((response) => response.json())
     .then((data) => {
       run_post_fetch_routines(data);
