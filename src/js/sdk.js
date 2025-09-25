@@ -103,14 +103,6 @@ function compose_interview_li(data) {
   return content;
 }
 
-function compose_competition_li(data) {
-  content = '<li class="li">';
-  content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a></p>`;
-  content += `<p class="li_paragraph">${data.description}</p>`;
-  content += '</li>';
-  return content;
-}
-
 function update_projects(data, section_type) {
   let content = compose_section_beginning(section_type);
   content += '<div class="col-lg">';
@@ -130,19 +122,6 @@ function update_conferences(data, section_type) {
   content += '<ul>';
   for (let j = 0; j < data.length; j++)
     content += compose_conference_li(data[j]);
-  
-  content += '</ul>';
-  content += '</div>';
-  content += compose_section_end();
-  return content;
-}
-
-function update_competitions(data, section_type) {
-  let content = compose_section_beginning(section_type);
-  content += '<div class="col-lg">';
-  content += '<ul>';
-  for (let j = 0; j < data.length; j++)
-    content += compose_competition_li(data[j]);
   
   content += '</ul>';
   content += '</div>';
@@ -190,8 +169,6 @@ function update_sections(data) {
       function_to_call = update_projects;
     else if (section_type_lower_case == 'conferences')
       function_to_call = update_conferences;
-    else if (section_type_lower_case == 'competitions')
-      function_to_call = update_competitions;
     else if (section_type_lower_case == 'interviews')
       function_to_call = update_interviews;
     else if (section_type_lower_case == 'books')
@@ -234,8 +211,8 @@ function run_post_fetch_routines(data) {
 }
 
 window.onload = function() {
-  //fetch('http://localhost/data/data.sample.json')
-  fetch('data/data.json')
+  fetch('https://togetherisbetter.github.io/portfolio/data/data.json')
+  //fetch('data/data.json')
     .then((response) => response.json())
     .then((data) => {
       run_post_fetch_routines(data);
