@@ -40,13 +40,26 @@ function compose_project_li(data) {
   content = '<li class="li">';
   content += `<p class="li_header"><b>`;
   if (data.dates) {
-    content += `(${data.dates}`;
-    content += `, ${data.domain}) `;
+    content += `<span class="badge text-bg-info" title="Development dates" style="cursor: help">${data.dates}</span> `;
+    content += `<span class="badge text-bg-secondary">${data.domain}</span> `;
   }
+  if (data.status) {
+    content += `<span class="badge text-bg-`;
+    if (data.status == 'In service')
+      content += 'success';
+    else if (data.status == 'Ongoing')
+      content += 'warning';
+    else
+      content += 'danger';
+
+    content += `" title="Current status" style="cursor: help">${data.status}</span> `;
+  }
+
   if (data.link)
-    content += `“<a href="${data.link}" target="_blank">${data.name}</a>” &mdash; ${data.header} `;
+    content += `“<a href="${data.link}" target="_blank">${data.name}</a>” `;
   else
-    content += `“${data.name}” &mdash; ${data.header} `;
+    content += `“${data.name}” `;
+  content += `&mdash; ${data.header} `;
   //let pretty_link = data.link.replace(/(^\w+:|^)\/\//, '');  // romove protocol
   //    pretty_link = pretty_link.replace(/\/.*/, '');  // remove everything after hostname
   //content += `<a href="${data.link}" target="_blank">${pretty_link}</a>`;
