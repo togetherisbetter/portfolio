@@ -16,16 +16,18 @@
         "section_data": [
           {
             "delivered_outcomes": false,
+            "dates": "Mar 2025 &mdash; now",
+            "domain": "B2C, healthcare",
             "name": "AI therapist",
             "link": "https://togetherisbetter.github.io/ai-therapist",
-            "header": "chatbot controlled by agentic AI and supervised by real psychotherapists, created for a long-term individual psychotherapy in situations where traditional offline or online therapy is not feasible, 2025, B2C, healthcare",
-            "description": "Launched MVP v1 of an “AI therapist” on May, 2025, and since then iterate with early customers feedback and new versions in search of a PMF. Below is a short demo of a simple 3 minutes-long therapy session (June 2025).",
+            "header": "chatbot controlled by agentic AI and supervised by experienced psychotherapists, created for an individual psychotherapy when traditional therapy is not feasible",
+            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media ad campaigns.</li><li>Achieved 100% WAU after releasing the 3rd iteration of MVP.</li><li>(now) Collect and analyze qualitative and quantitative feedback from 10 early customers and iterate through MVPs while heading toward PMF.</li></ul>",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
               }
             ],
-            "images": [
+            "images-": [
               {
                 "link": "https://www.dropbox.com/scl/fi/v3zx8ia0yquv82epgqao1/ai-therapist-1.png?rlkey=czx4wo40cjkswr99dc7n4wc9a&raw=1",
                 "description": "AI therapist dialogue phases explained"
@@ -34,9 +36,11 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "Apr 2025 &mdash; Oct 2025",
+            "domain": "C2C, marketing",
             "name": "Farmers Goods",
             "link": "https://telegram.me/farmersgoods",
-            "header": "a horizontal classified for perishable goods from locals for locals, built on a Telegram bot, 2025, C2C, marketing",
+            "header": "horizontal classified ads for perishable goods from locals for locals, built on a Telegram bot",
             "description": "Run Product Discovery with “Farmers Goods” MVP in high season 2025 (April-October) to help local sellers of perishable goods (forest and garden berries, vegetables, mushrooms, fresh fish, greens, etc.) and local buyers to find each other faster and easier than with a word of mouth.</p><p>3 towns were connected and 200+ people participated to test the problem, solution and the demand. No one bought any of tens of published goods &mdash; so I shut down the project.",
             "images": [
               {
@@ -67,9 +71,11 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "Oct 2024 &mdash; Dec 2024",
+            "domain": "B2C, marketing",
             "name": "Podarkin",
             "link": "https://telegram.me/adte_bot",
-            "header": "a marketing app based on a Telegram mini-app created to draw pre-New Year gifts from local brands among the citizens of a town to stimulate sales through draws, 2024, B2C, marketing",
+            "header": "a marketing app based on a Telegram mini-app created to draw pre-New Year gifts from local brands among the citizens of a town to stimulate sales through draws",
             "description": "Launched “Podarkin” MVP v1 on December 1, 2024 and run draws every day till December 31, 2024 &mdash; to test the idea of increasing sales from local brands through the draws. 6 brands and over 350 people participated in a town. 250 presents have been drawn over 30 days.</p><p>Thanks to experiment found that to stay engaged and retain consumers would like to win every 10 days (or, every 10% should win). Brands could not afford that with meaningful gifts. So, I shutdown the project since Jan 1, 2025.",
             "videos": [
               {
@@ -113,8 +119,10 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "Jun 2024 &mdash; Aug 2024",
+            "domain": "B2C, education",
             "name": "Knowledge Base",
-            "header": "Google Chrome side panel extension powered by Gemini Nano AI, 2024, B2C, education",
+            "header": "Google Chrome side panel extension powered by Gemini Nano AI",
             "link": "https://alexeyhimself.github.io/getkbapp",
             "description": "“Knowledge Base” app streamlines education and solves FOMO problem for the people who study a lot and have lots of opened tabs in their browsers with tons of materials to read, watch and listen. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> held in 2024.</p><p>We didn't win anything. The app continues to work for the team. For example, I use it every week.",
             "videos": [
@@ -139,8 +147,10 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "2024",
+            "domain": "B2C, marketing",
             "name": "Portfolio Template",
-            "header": "template repository on GitHub with portfolio published on GitHub Pages, 2024, B2C, marketing",
+            "header": "template repository on GitHub with portfolio published on GitHub Pages",
             "link": "https://github.com/alexeyhimself/portfolio_template",
             "description": "“Portfolio Template” allows Product Managers and Engineers to better sell themselves in resumes and interviews by using personal, nice-looking, responsive portfolio web-site hosted by GitHub Pages for free.",
             "images": [
@@ -156,8 +166,10 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "Dec 2023 &mdash; Apr 2024",
+            "domain": "B2C, healthcare",
             "name": "Calendarium",
-            "header": "automated and enriched with data from WHO and HMD version of “Life Calendar”, 2024, B2C, healthcare",
+            "header": "automated and enriched with data from WHO and HMD one of versions of “Life Calendar”",
             "link": "https://togetherisbetter.github.io/calendarium",
             "description": "Added value and improved UX for already existing and selling on <a href=\"https://www.amazon.com/LifeTimeTM-Weeks-Poster-Memento-Calendar/dp/B0C49TXX73?th=1\" target=\"_blank\">Amazon</a> and <a href=\"https://www.etsy.com/listing/1071238504/90-year-life-calendar-in-weeks-memento\" target=\"_blank\">Etsy</a> “Life Calendar” product by adding data from World Health Organization (WHO) and Human Mortality Database (HMD).",
             "images": [
@@ -185,10 +197,12 @@
           },
           {
             "delivered_outcomes": true,
+            "dates": "Oct 2023 &mdash; Nov 2023",
+            "domain": "B2B, travel",
             "name": "Ubergram",
-            "header": "private Telegram bot built for a travel business entrepreneur in Montenegro, 2023, B2B, travel (contract work)",
+            "header": "monitoring service for a travel entrepreneur to capture prospects faster than competitors",
             "link": "",
-            "description": "10x reduced chats monitoring time for an entrepreneur by building a chat-bot that processes thousands of daily messages across 5 chats and notifies an entrepreneur about prospects.\n15%+ ARR increased sales for an entrepreneur by allowing them to reach prospects with compelling offers faster than competitors.\nIn service 24/7 since Autumn 2023.",
+            "description": "<ul><li>Reduced chats monitoring time 10x by building a SaaS solution that monitors thousands of daily messages across dozens of Telegram groups and identifies qualified prospects.</li><li>Increased the entrepreneur’s ARR by 15%+ by enabling faster outreach that consistently beat competitors’ response times.</li><li>In service 24/7 since Autumn 2023.</li></ul>",
             "images": [
               {
                 "link": "https://www.dropbox.com/scl/fi/ygqsvo4fh1jb09anll8oi/uber.me.png?rlkey=vx15o3geoqnw7tu6neze60pkb&raw=1",
@@ -198,8 +212,10 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "Dec 2022 &mdash; Jul 2023",
+            "domain": "B2B, analytics",
             "name": "DoTheyUse",
-            "header": "2023, B2B SaaS, analytics",
+            "header": "features usage analytics service",
             "link": "https://alexeyhimself.github.io/dtu_gw",
             "description": "Developed a high fidelity real-data prototype for features usage product analytics service that helps software development teams to make data-informed UX decisions and eliminate feature bloat for digital apps and services.",
             "images": [
@@ -215,19 +231,23 @@
           },
           {
             "delivered_outcomes": true,
+            "dates": "Dec 2021 &mdash; Feb 2022",
+            "domain": "B2B, cleaning services",
             "name": "Procurements Alert",
-            "header": "private Telegram bot built for a cleaning services business entrepreneur in Russia, 2022, B2B, services (contract work)",
+            "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant procurements",
             "link": "",
-            "description": "Solved \"lots of missed orders\" problem for an entrepreneur by building a bot that parses, filters, detects and notifies about relevant procurement orders faster than competitors.\n2x increased entrepreneur’s MRR within the first 6 months of bot usage.",
+            "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within 6 months by improving procurement response speed and accuracy.</li></ul>",
             "images": [
             ]
           },
           {
             "delivered_outcomes": true,
+            "dates": "Sep 2015 &mdash; Aug 2019",
+            "domain": "B2B, SD tools",
             "name": "SQA Mate",
-            "header": "in-house service built for an advanced management of tens of thousands of manual test cases in the company, 2015-2019, B2B SaaS, SD tools (side-project at RingCentral)",
+            "header": "internal web platform for managing tens of thousands of manual test cases",
             "link": "",
-            "description": "Identified pain points of QA Engineers and stakeholders and built and refined service MVPs with them on a daily basis.\nEstablished DevOps procedures for fast and secure daily shipments of updates to real users.\nSaved 80% of QA Engineers efforts on manual test cases management by development of test cases management system with user centred UX.",
+            "description": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.<li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Adopted by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
             "images": [
               {
                 "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/sqamate/marketing_main.png",
@@ -245,8 +265,10 @@
           },
           {
             "delivered_outcomes": false,
+            "dates": "2019",
+            "domain": "B2C, SD tools",
             "name": "Pairwise",
-            "header": "2019, B2C SaaS, SD tools (side-project)",
+            "header": "web service for test pairs generation",
             "link": "",
             "description": "Empowered hundreds of QA Engineers in the world to apply pairwise testing for test cases generation faster and easily by creating a simple web UI for an existing pairwise tests library.",
             "images": [
@@ -262,10 +284,12 @@
           },
           {
             "delivered_outcomes": true,
+            "dates": "Dec 2017 &mdash; Jun 2020",
+            "domain": "B2B, SD tools",
             "name": "Aport",
-            "header": "in-house web-app built for effective logs collection and sharing across tens of servers in tens of environments at the company, 2017, B2B SaaS, SD tools (side-project at RingCentral)",
+            "header": "internal web service for fast, centralized log collection across hundreds of servers and dozens of environments",
             "link": "",
-            "description": "Conducted weekly UX interviews with different user groups and stakeholders, yielding actionable insights that led to significant improvements of user satisfaction metrics.\nBy 2024 saved for RingCentral $120K+ on logs collection only.",
+            "description": "<ul><li>Improved log collection speed by 10x by creating a system that retrieves clean logs from different types of servers.</li><li>Cut engineering debugging efforts, saving $30K+ per year, by automating log retrieval and reducing time spent on manual operations with logs</li></ul>",
             "images": [
               {
                 "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/aport/main-page.jpg",

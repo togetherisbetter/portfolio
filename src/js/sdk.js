@@ -39,6 +39,10 @@ function update_contacts(data, section_type) {
 function compose_project_li(data) {
   content = '<li class="li">';
   content += `<p class="li_header"><b>`;
+  if (data.dates) {
+    content += `(${data.dates}`;
+    content += `, ${data.domain}) `;
+  }
   if (data.link)
     content += `“<a href="${data.link}" target="_blank">${data.name}</a>” &mdash; ${data.header} `;
   else
