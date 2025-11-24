@@ -257,7 +257,7 @@
             "name": "SQA Mate",
             "header": "internal web platform for managing tens of thousands of manual test cases",
             "link": "",
-            "description": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.<li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Adopted by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
+            "description": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.<li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Got adopted by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
             "images": [
               {
                 "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/sqamate/marketing_main.png",
