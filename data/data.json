@@ -313,6 +313,16 @@
       }
     },
     {
+      "Competitions": [
+        {
+          "title": "Google Gemini AI Competition",
+          "header": "competed, 2024",
+          "link": "https://ai.google.dev/competition",
+          "description": "Built a team and competed with <a href=\"https://alexeyhimself.github.io/getkbapp/competitors.html\" target=\"_blank\">over 3K projects across 117 countries</a> in a Google Gemini AI Competition with a “<a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">Knowledge&nbsp;Base</a>” app. Landing page for the project is <a href=\"https://alexeyhimself.github.io/getkbapp\" target=\"_blank\">here</a>. We didn't win anything, but continue to use the app by ourselves."
+        }
+      ]
+    },
+    {
       "Conferences": [
         {
           "title": "Write test cases titles better!",
@@ -323,16 +333,6 @@
           "title": "SQA Mate test cases management system",
           "conference": " &mdash; my speech at the conference, 2019, Comaqa Spring, Minsk, Belarus",
           "link": "https://www.youtube.com/embed/hfM7TQGMW2g?si=yAlWQjYZnoz8uBNu"
-        }
-      ]
-    },
-    {
-      "Competitions": [
-        {
-          "title": "Google Gemini AI Competition",
-          "header": "competed, 2024",
-          "link": "https://ai.google.dev/competition",
-          "description": "Built a team and competed with <a href=\"https://alexeyhimself.github.io/getkbapp/competitors.html\" target=\"_blank\">over 3K projects across 117 countries</a> in a Google Gemini AI Competition with a “<a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">Knowledge&nbsp;Base</a>” app. Landing page for the project is <a href=\"https://alexeyhimself.github.io/getkbapp\" target=\"_blank\">here</a>. We didn't win anything, but continue to use the app by ourselves."
         }
       ]
     },
