@@ -109,10 +109,34 @@ function compose_competition_li(data) {
 function update_projects(data, section_type) {
   let content = compose_section_beginning(section_type);
   content += '<div class="col-lg">';
-  content += `<p>${data.section_explanatory_text}</p>`;
+    content += `<p>${data.section_explanatory_text}</p>`;
+
+  content += '\
+  <ul class="nav nav-tabs" id="myTab" role="tablist">\
+    <li class="nav-item" role="presentation">\
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><b>Products with Delivered Outcomes</b></button>\
+    </li>\
+    <li class="nav-item" role="presentation">\
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><b>Products in Discovery & R&D</b></button>\
+    </li>\
+  </ul>';
+
   content += '<ul>';
-  for (let j = 0; j < data.section_data.length; j++)
-    content += compose_project_li(data.section_data[j]);
+
+  let delivered_outcomes = '';
+  let discovery_and_rnd = '';
+  for (let j = 0; j < data.section_data.length; j++) {
+    if (data.section_data[j].delivered_outcomes)
+      delivered_outcomes += compose_project_li(data.section_data[j]);
+    else
+      discovery_and_rnd += compose_project_li(data.section_data[j]);
+  }
+
+  content += `<br><div class="tab-content" id="myTabContent">\
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">${delivered_outcomes}</div>\
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">${discovery_and_rnd}</div>\
+  </div>`;
+
   content += '</ul>';
   content += '</div>';
   content += compose_section_end();
