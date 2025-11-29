@@ -65,16 +65,18 @@ function compose_project_li(data) {
   //content += `<a href="${data.link}" target="_blank">${pretty_link}</a>`;
   content += '</b></p>';
 
-  const description = data.description.split('\n');
-  if (description.length > 1) {
-    content += '<ul>';
-    description.forEach((paragraph) => {
-      content += `<li class="li_paragraph">${paragraph}</li>`;
-    });
-    content += '</ul>';
-  }
-  else {
-    content += `<p class="li_paragraph">${description[0]}</p>`;
+  if (data.description) {
+    const description = data.description.split('\n');
+    if (description.length > 1) {
+      content += '<ul>';
+      description.forEach((paragraph) => {
+        content += `<li class="li_paragraph">${paragraph}</li>`;
+      });
+      content += '</ul>';
+    }
+    else {
+      content += `<p class="li_paragraph">${description[0]}</p>`;
+    }
   }
 
   content += '<div style="display: flex; flex-wrap: wrap;">';
@@ -88,15 +90,21 @@ function compose_project_li(data) {
   if (data.images) {
     for (let i = 0; i < data.images.length; i++) {
       const img = data.images[i];
-      content += '<a href="#" data-bs-toggle="modal" data-bs-target="#image_preview_modal">';
-      content += `<img src="${img.link}" class="img-thumbnail" alt="${img.description}">`;
-      content += '</a>';
+      if (img.link && img.description) {
+        content += '<a href="#" data-bs-toggle="modal" data-bs-target="#image_preview_modal">';
+        content += `<img src="${img.link}" class="img-thumbnail" alt="${img.description}">`;
+        content += '</a>';
+      }
     }
   }
 
   content += '</div>';
 
+  if (data.link_case)
+    content += `<a href="${data.link_case}" class="btn btn-link btn-md" target="_blank">View case</a>`
+
   content += '</li>';
+
   return content;
 }
 
