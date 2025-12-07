@@ -21,8 +21,8 @@
             "status": "Ongoing",
             "name": "AI therapist",
             "link": "https://togetherisbetter.github.io/ai-therapist",
-            "header": "chatbot controlled by agentic AI and supervised by experienced psychotherapists, created for an individual psychotherapy when traditional therapy is not feasible",
-            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media ad campaigns.</li><li>Achieved 100% WAU after releasing the 3rd iteration of MVP.</li><li>Collect and analyze qualitative and quantitative feedback from 10 early customers and iterate through MVPs while heading toward PMF.</li></ul>",
+            "header": "AI-powered chatbot supervised by professional psychologists made for situations when individual long-term traditional therapy is not feasible",
+            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><li>(now) Continue product discovery, collect and analyze qualitative and quantitative feedback from early customers and iterate with MVPs while heading toward PMF.</li></ul>",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
@@ -209,7 +209,7 @@
             "name": "Ubergram",
             "header": "monitoring service for a travel entrepreneur to capture prospects faster than competitors",
             "link": "",
-            "description": "<ul><li>Reduced chats monitoring time 10x by building a SaaS solution that monitors thousands of daily messages across dozens of Telegram groups and identifies qualified prospects.</li><li>Increased the entrepreneur’s ARR by 15%+ by enabling faster outreach that consistently beat competitors’ response times.</li></ul>",
+            "description": "<ul><li>Reduced chats monitoring time by 10x by building a SaaS solution that monitors thousands of daily messages across dozens of Telegram groups and identifies qualified prospects.</li><li>Increased the entrepreneur’s ARR by 15%+ by enabling faster outreach that consistently beats competitors’ response times.</li></ul>",
             "images-": [
               {
                 "link": "https://www.dropbox.com/scl/fi/ygqsvo4fh1jb09anll8oi/uber.me.png?rlkey=vx15o3geoqnw7tu6neze60pkb&raw=1",
@@ -221,7 +221,7 @@
             "delivered_outcomes": false,
             "dates": "Dec 2022 &mdash; Jul 2023",
             "domain": "B2B, analytics",
-            "status": "Terminated",
+            "status": "In service",
             "name": "DoTheyUse",
             "header": "features usage analytics service",
             "link": "https://alexeyhimself.github.io/dtu_gw",
@@ -242,10 +242,10 @@
             "dates": "Dec 2021 &mdash; Feb 2022",
             "domain": "B2B, cleaning services",
             "status": "In service",
-            "name": "Procurements Alert",
-            "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant procurements",
+            "name": "Tenders Alert",
+            "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant tenders.",
             "link": "",
-            "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within 6 months by improving procurement response speed and accuracy.</li></ul>",
+            "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within first 6 months of running by improving tender response speed and accuracy.</li></ul>",
             "images": [
             ]
           },
@@ -255,9 +255,9 @@
             "domain": "B2B, SD tools",
             "status": "Decommissioned",
             "name": "SQA Mate",
-            "header": "internal web platform for managing tens of thousands of manual test cases",
+            "header": "internal web platform for managing tens of thousands of manual test cases.",
             "link": "",
-            "description-": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.<li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Adopted by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
+            "description-": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.</li><li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Achieved adoption by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
             "link_case": "https://docs.google.com/document/d/1dCI_oQstZpxyaWHCH5Au7GCs-rrOzhF9AC0lpNK_GrU/edit?usp=sharing",
             "images": [
               {
@@ -300,9 +300,9 @@
             "domain": "B2B, SD tools",
             "status": "In service",
             "name": "Aport",
-            "header": "internal web service for fast, centralized log collection across hundreds of servers and dozens of environments",
+            "header": "internal web service for fast, centralized log collection across hundreds of servers and dozens of environments.",
             "link": "",
-            "description": "<ul><li>Improved log collection speed by 10x by creating a system that retrieves clean logs from different types of servers.</li><li>Cut engineering debugging efforts, saving $30K+ per year, by automating log retrieval and reducing time spent on manual operations with logs</li></ul>",
+            "description": "<ul><li>Improved log collection speed by 10x by creating a system that retrieves clean logs from different types of servers.</li><li>Cut engineering debugging efforts, saving $30K+ annually, by automating log retrieval and reducing time spent on manual operations with logs.</li></ul>",
             "images": [
               {
                 "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/aport/main-page.jpg",
