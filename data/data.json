@@ -243,7 +243,7 @@
             "domain": "B2B, cleaning services",
             "status": "In service",
             "name": "Tenders Alert",
-            "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant tenders.",
+            "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant tenders",
             "link": "",
             "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within first 6 months of running by improving tender response speed and accuracy.</li></ul>",
             "images": [
@@ -255,7 +255,7 @@
             "domain": "B2B, SD tools",
             "status": "Decommissioned",
             "name": "SQA Mate",
-            "header": "internal web platform for managing tens of thousands of manual test cases.",
+            "header": "internal web platform for managing tens of thousands of manual test cases",
             "link": "",
             "description-": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.</li><li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Achieved adoption by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
             "link_case": "https://docs.google.com/document/d/1dCI_oQstZpxyaWHCH5Au7GCs-rrOzhF9AC0lpNK_GrU/edit?usp=sharing",
@@ -300,7 +300,7 @@
             "domain": "B2B, SD tools",
             "status": "In service",
             "name": "Aport",
-            "header": "internal web service for fast, centralized log collection across hundreds of servers and dozens of environments.",
+            "header": "internal web service for fast, centralized log collection across hundreds of servers and dozens of environments",
             "link": "",
             "description": "<ul><li>Improved log collection speed by 10x by creating a system that retrieves clean logs from different types of servers.</li><li>Cut engineering debugging efforts, saving $30K+ annually, by automating log retrieval and reducing time spent on manual operations with logs.</li></ul>",
             "images": [
