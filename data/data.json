@@ -2,12 +2,12 @@
   "full_name": "Aleksei Sotskov",
   "meta_description": "Aleksei Sotskov's Product Management Portfolio web-site",
   "meta_keywords": "Aleksei Sotskov, Product Manager, portfolio",
-  "pitch": "High agency, outcomes-oriented Product Manager with engineering background & entrepreneurship mindset and passion for solving real problems for the customers and businesses",
+  "pitch": "High agency, outcomes-oriented Product Manager with engineering background, entrepreneurship mindset and passion for solving real problems for the customers and businesses",
   "sections": [
     {
       "About": {
         "section_explanatory_text": "",
-        "section_data": "Builder at heart, I create products the way that customers love yet that works for the business. My Product Management roots in Technology: I worked as a Product Software Engineer for 12+ years making contract work, personal and at-work side-projects as a Product Manager.</p><p>During the last several years, I have been building and selling my products and services and helping small offline businesses, entrepreneurs, and solopreneurs to make their businesses technology-powered.</p><p>Since early 2023 I work in a <a href=\"https://www.svpg.com/the-product-operating-model-an-introduction/\" target=\"_blank\">Product Operating Model</a> popularized by Marty Cagan. Currently, I am looking for partners, especially in Product Marketing, Product Design, and Product Software Engineering fields.</p>"
+        "section_data": "Builder at heart, I create products the way that customers love yet that works for the business. My Product Management roots in Technology: I worked as a Product Software Engineer for 10+ years, making contract work, personal, and at-work side-projects as a Product Manager.</p><p>During the last several years, I have been building and selling my products and services and helping small offline businesses, entrepreneurs, and solopreneurs to make their businesses technology-powered.</p><p>Since early 2023, I have been working in a <a href=\"https://www.svpg.com/the-product-operating-model-an-introduction/\" target=\"_blank\">Product Operating Model</a> popularized by Marty Cagan. Currently, I am looking for partners, especially in Product Marketing, Product Design, and Product Software Engineering fields.</p>"
       }
     },
     {
@@ -128,7 +128,7 @@
             "name": "Knowledge Base",
             "header": "Google Chrome side panel extension powered by Gemini Nano AI",
             "link": "https://alexeyhimself.github.io/getkbapp",
-            "description": "“Knowledge Base” app streamlines education and solves FOMO problem for the people who study a lot and have lots of opened tabs in their browsers with tons of materials to read, watch and listen. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> held in 2024.</p><p>We didn't win anything. The app continues to work for the team. For example, I use it every week.",
+            "description": "“Knowledge Base” app streamlines education and solves FOMO problem for the people who study a lot and have lots of opened tabs in their browsers with tons of materials to read, watch and listen. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in 2024 in <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> in a “Most useful app” category.</p><p>We didn't win anything, but continue using the app by ourselves.",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/oI9sLIaceek?si=-1dQWGSK68TP3FW2"
@@ -319,7 +319,7 @@
           "title": "Google Gemini AI Competition",
           "header": "competed, 2024",
           "link": "https://ai.google.dev/competition",
-          "description": "Built a team and competed with <a href=\"https://alexeyhimself.github.io/getkbapp/competitors.html\" target=\"_blank\">over 3K projects across 117 countries</a> in a Google Gemini AI Competition with a “<a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">Knowledge&nbsp;Base</a>” app. Landing page for the project is <a href=\"https://alexeyhimself.github.io/getkbapp\" target=\"_blank\">here</a>. We didn't win anything, but continue to use the app by ourselves."
+          "description": "Built a team and competed with <a href=\"https://alexeyhimself.github.io/getkbapp/competitors.html\" target=\"_blank\">over 3K teams across 117 countries</a> in a Google Gemini AI Competition with a “<a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">Knowledge&nbsp;Base</a>” app. Landing page for the project is <a href=\"https://alexeyhimself.github.io/getkbapp\" target=\"_blank\">here</a>. We competed in a “Most useful app” category, didn't win anything, but continue using the app by ourselves."
         }
       ]
     },
