@@ -110,7 +110,7 @@ function compose_project_li(data) {
 
 function compose_conference_li(data) {
   content = '<li class="li">';
-  content += `<p class="li_header"><b>“${data.title}”</b> ${data.conference}</p>`;
+  content += `<p class="li_header"><b>“${data.title}” ${data.conference}</b></p>`;
   content += `<iframe class="img-thumbnail" width="50%" height="auto" src="${data.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   content += '</li>';
   return content;
@@ -118,7 +118,7 @@ function compose_conference_li(data) {
 
 function compose_interview_li(data) {
   content = '<li class="li">';
-  content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a> ${data.description}</p>`;
+  content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a> <b>${data.description}</b></p>`;
   content += '</li>';
   return content;
 }
