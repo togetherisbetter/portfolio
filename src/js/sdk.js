@@ -118,7 +118,7 @@ function compose_conference_li(data) {
 
 function compose_interview_li(data) {
   content = '<li class="li">';
-  content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a></p>`;
+  content += `<p class="li_header"><a href="${data.link}" target="_blank">${data.title}</a> ${data.description}</p>`;
   content += '</li>';
   return content;
 }

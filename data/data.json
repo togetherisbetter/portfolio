@@ -348,12 +348,12 @@
       "Conferences": [
         {
           "title": "Write test cases titles better!",
-          "conference": " &mdash; my speech at the conference, 2019, Comaqa Autumn, St.Petersburg, Russia",
+          "conference": " &mdash; spoke at the conference, 2019, Comaqa Autumn, St.Petersburg, Russia",
           "link": "https://www.youtube.com/embed/feVgbebslfk?si=xfttInE4pmiIfd_U"
         }, 
         {
           "title": "SQA Mate test cases management system",
-          "conference": " &mdash; my speech at the conference, 2019, Comaqa Spring, Minsk, Belarus",
+          "conference": " &mdash; spoke at the conference, 2019, Comaqa Spring, Minsk, Belarus",
           "link": "https://www.youtube.com/embed/hfM7TQGMW2g?si=yAlWQjYZnoz8uBNu"
         }
       ]
@@ -361,7 +361,8 @@
     {
       "Interviews": [
         {
-          "title": "An interview before QA-Meetup in Nizhny Novgorod",
+          "title": "An interview before QA-Meetup in Nizhny Novgorod, Russia",
+          "description": " &mdash; 2018",
           "link": "https://vk.com/@dins_spb-intervu-s-alekseem-sockovym"
         }
       ]
