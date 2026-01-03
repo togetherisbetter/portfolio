@@ -16,13 +16,34 @@
         "section_data": [
           {
             "delivered_outcomes": false,
+            "dates": "Dec 2025 &mdash; now",
+            "domain": "B2C, healthcare",
+            "status": "Ongoing",
+            "name": "Theraflection",
+            "link-": "https://togetherisbetter.github.io/ai-therapist",
+            "header": "AI-powered chatbot made to increase value from individual psychotherapy through collection of expressed emotions between therapy sessions.",
+            "description-": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><ul><p>Pivoted to another app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</p>",
+            "videos-": [
+              {
+                "link": "https://www.youtube.com/embed/BlZO26PShnA"
+              }
+            ],
+            "images-": [
+              {
+                "link": "https://www.dropbox.com/scl/fi/v3zx8ia0yquv82epgqao1/ai-therapist-1.png?rlkey=czx4wo40cjkswr99dc7n4wc9a&raw=1",
+                "description": "AI therapist dialogue phases explained"
+              }
+            ]
+          },
+          {
+            "delivered_outcomes": false,
             "dates": "Mar 2025 &mdash; Dec 2025",
             "domain": "B2C, healthcare",
             "status": "Pivoted",
             "name": "AI therapist",
             "link": "https://togetherisbetter.github.io/ai-therapist",
             "header": "AI-powered chatbot supervised by professional psychologists, made for situations when individual long-term traditional therapy is not feasible",
-            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><li>Pivoted to another app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</li></ul>",
+            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><ul><p>Pivoted to another app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</p>",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
