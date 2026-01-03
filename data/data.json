@@ -22,7 +22,7 @@
             "name": "Theraflection",
             "link-": "https://togetherisbetter.github.io/ai-therapist",
             "header": "AI-assisted reflection between therapy sessions",
-            "description-": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li></ul><p style=\"margin-top: 0.8em;\">Pivoted to “Theraflection” app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</p>",
+            "description-": "<ul><li></li></ul>",
             "videos-": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
@@ -43,7 +43,7 @@
             "name": "AI therapist",
             "link": "https://togetherisbetter.github.io/ai-therapist",
             "header": "AI-powered chatbot supervised by professional psychologists, made for situations when individual long-term traditional therapy is not feasible",
-            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li></ul><p>Pivoted to “Theraflection” app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</p>",
+            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li></ul><p style=\"margin-top: 0.8em;\">Pivoted to “Theraflection” app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</p>",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
@@ -276,7 +276,7 @@
             "domain": "B2B, SD tools",
             "status": "Decommissioned",
             "name": "SQA Mate",
-            "header": "internal web platform for managing tens of thousands of manual test cases",
+            "header": "web platform for managing tens of thousands of manual test cases",
             "link": "",
             "description": "<ul><li>Reduced manual test-case management effort by 80% by designing and building a streamlined, user-centric platform adopted by multiple QA teams.</li><li>Saved over $100K annually by simplifying creation, updates, search, and execution workflows for thousands of manual test cases.</li><li>Achieved adoption by 100+ QA and SRE Engineers across multiple teams, becoming the primary tool for managing manual test cases in the company.</li></ul>",
             "link_case": "https://docs.google.com/document/d/1dCI_oQstZpxyaWHCH5Au7GCs-rrOzhF9AC0lpNK_GrU/edit?usp=sharing",
