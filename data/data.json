@@ -16,13 +16,13 @@
         "section_data": [
           {
             "delivered_outcomes": false,
-            "dates": "Mar 2025 &mdash; now",
+            "dates": "Mar 2025 &mdash; Dec 2025",
             "domain": "B2C, healthcare",
-            "status": "Ongoing",
+            "status": "Pivoted",
             "name": "AI therapist",
             "link": "https://togetherisbetter.github.io/ai-therapist",
-            "header": "AI-powered chatbot supervised by professional psychologists made for situations when individual long-term traditional therapy is not feasible",
-            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><li>(now) Continue product discovery, collect and analyze qualitative and quantitative feedback from early customers and iterate with MVPs while heading toward PMF.</li></ul>",
+            "header": "AI-powered chatbot supervised by professional psychologists, made for situations when individual long-term traditional therapy is not feasible",
+            "description": "<ul><li>Built a qualified waitlist of 30 leads by launching, running, and optimizing targeted social-media marketing and ad campaigns.</li><li>Partnered with 2 experienced and 2 student psychologists to regularly supervise AI chatbots’ behavior, dialogues, and users’ feedback.</li><li>Achieved 100% WAU for 12 early customers after releasing the 3rd iteration of MVP.</li><li>Pivoted to another app after gaining deeper qualitative and quantitative feedback from early customers during iterations with MVPs and heading toward PMF.</li></ul>",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/BlZO26PShnA"
@@ -79,7 +79,7 @@
             "name": "Podarkin",
             "link": "https://telegram.me/adte_bot",
             "header": "a marketing app based on a Telegram mini-app created to draw pre-New Year gifts from local brands among the citizens of a town to stimulate sales through draws",
-            "description": "Launched “Podarkin” MVP v1 on December 1, 2024 and run draws every day till December 31, 2024 &mdash; to test the idea of increasing sales from local brands through the draws. 6 brands and over 350 people participated in a town. 250 presents have been drawn over 30 days.</p><p>Thanks to experiment found that to stay engaged and retain consumers would like to win every 10 days (or, every 10% should win). Brands could not afford that with meaningful gifts. So, I shutdown the project since Jan 1, 2025.",
+            "description": "Launched “Podarkin” MVP v1 on December 1, 2024, and ran draws every day till December 31, 2024 &mdash; to test the idea of increasing sales from local brands through the draws. 6 brands and over 350 people participated in a town. 250 presents have been drawn over 30 days.</p><p>Thanks to the experiment found that to stay engaged and retain consumers would like to win every 10 days (or, every 10% should win). Brands could not afford that with meaningful gifts. So, I shut down the project on Jan 1, 2025.",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/TJ155W9OeLU"
@@ -128,7 +128,7 @@
             "name": "Knowledge Base",
             "header": "Google Chrome side panel extension powered by Gemini Nano AI",
             "link": "https://alexeyhimself.github.io/getkbapp",
-            "description": "“Knowledge Base” app streamlines education and solves FOMO problem for the people who study a lot and have lots of opened tabs in their browsers with tons of materials to read, watch and listen. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in 2024 in <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> in a “Most useful app” category.</p><p>We didn't win anything, but continue using the app by ourselves.",
+            "description": "“Knowledge Base” app streamlines education and solves the FOMO problem for the people who study a lot and have numerous opened tabs in their browsers, with tons of materials to read, watch and listen to. The app <a href=\"https://ai.google.dev/competition/projects/knowledge-base\" target=\"_blank\">competed</a> in 2024 in the <a href=\"https://ai.google.dev/competition\" target=\"_blank\">Google Gemini AI Competition</a> in the “Most useful app” category.</p><p>We didn't win anything, but continue using the app by ourselves.",
             "videos": [
               {
                 "link": "https://www.youtube.com/embed/oI9sLIaceek?si=-1dQWGSK68TP3FW2"
@@ -175,9 +175,9 @@
             "domain": "B2C, healthcare",
             "status": "In service",
             "name": "Calendarium",
-            "header": "automated and enriched with data from WHO and HMD one of versions of “Life Calendar”",
+            "header": "automated and enriched with data from WHO and HMD, one of the versions of “Life Calendar”",
             "link": "https://togetherisbetter.github.io/calendarium",
-            "description": "Added value and improved UX for already existing and selling on <a href=\"https://www.amazon.com/LifeTimeTM-Weeks-Poster-Memento-Calendar/dp/B0C49TXX73?th=1\" target=\"_blank\">Amazon</a> and <a href=\"https://www.etsy.com/listing/1071238504/90-year-life-calendar-in-weeks-memento\" target=\"_blank\">Etsy</a> “Life Calendar” product by adding data from World Health Organization (WHO) and Human Mortality Database (HMD).",
+            "description": "Added value and improved UX for already existing and selling on <a href=\"https://www.amazon.com/LifeTimeTM-Weeks-Poster-Memento-Calendar/dp/B0C49TXX73?th=1\" target=\"_blank\">Amazon</a> and <a href=\"https://www.etsy.com/listing/1071238504/90-year-life-calendar-in-weeks-memento\" target=\"_blank\">Etsy</a> “Life Calendar” product by adding data from the World Health Organization (WHO) and the Human Mortality Database (HMD).",
             "images": [
               {
                 "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/calendarium-web.png",
@@ -245,7 +245,7 @@
             "name": "Tenders Alert",
             "header": "monitoring service for a cleaning-services entrepreneur to track exchanges and receive instant notifications on relevant tenders",
             "link": "",
-            "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within first 6 months of running by improving tender response speed and accuracy.</li></ul>",
+            "description": "<ul><li>Eliminated the “lots of missed orders” problem by creating a service that monitors, filters, and detects relevant tenders and sends real-time alerts.</li><li>Doubled the entrepreneur’s MRR within the first 6 months of running by improving tender response speed and accuracy.</li></ul>",
             "images": [
             ]
           },
@@ -351,7 +351,7 @@
           "name": "Join IT via Software Testing",
           "header": "wrote a book, 2023",
           "link": "https://intoit.tilda.ws/book",
-          "description": "A book (in Russian) written to guide people who think about to transit in their careers to IT with independent from online courses marketing information &mdash; so they could know what they can and shoud expect and what are the myths.",
+          "description": "Wrote a book (in Russian) to guide people who are thinking about transitioning in their careers to IT with independent from online courses marketing information &mdash; so they can know what they can and should expect, and what are the myths.",
           "images": [
             {
               "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio/intoit/main_page.png",
